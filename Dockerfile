@@ -1,4 +1,4 @@
-FROM docker.io/filebrowser/filebrowser:v2
+FROM quay.io/vcppds7878/filebrowser:latest
 
 COPY filebrowser.json /.filebrowser.json
 
