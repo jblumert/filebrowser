@@ -14,7 +14,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 10Gi
+      storage: 14Gi
 
 ---
 kind: PersistentVolumeClaim
@@ -67,7 +67,7 @@ metadata:
         app: filebrowser
         deployment: filebrowser
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
         app: filebrowser
